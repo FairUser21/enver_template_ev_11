@@ -1,0 +1,174 @@
+@media all and (max-width: 1200px) {
+  .footer__list {
+    width: 40%;
+  }
+}
+
+@media all and (max-width: 1150px) {
+  .header__title_left {
+    font-size: 60px;
+  }
+  .portfolio__item {
+    width: 30%;
+  }
+
+  .portfolio__item > img {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .services__title_main {
+    width: 80%;
+  }
+
+  .navbar__list {
+    width: 40%;
+  }
+
+  .info-block__title_main {
+    width: 80%;
+  }
+
+  .header__btn {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 950px) {
+  .header__block_right {
+    width: 60%;
+  }
+
+  .header__img {
+    width: 100%;
+    height: 90%;
+  }
+
+  #vector_1 {
+    left: 10px;
+  }
+  #vector_3 {
+    left: -10px;
+  }
+
+  .header__title_left,
+  .services__title_main,
+  .info-block__title {
+    font-size: 40px;
+  }
+
+  header {
+    margin-top: 0;
+  }
+  .services__title_main,
+  .info-block {
+    margin-top: 60px;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .services__item {
+    width: 30%;
+    margin: 0 1, 5%;
+  }
+
+  .navbar__list {
+    width: 50%;
+  }
+  .header__btn {
+    width: 60%;
+  }
+  .portfolio__title {
+    font-size: 50px;
+  }
+  .portfolio__list {
+    padding: 0;
+  }
+  .portfolio__item > img {
+    width: 90%;
+  }
+
+  .info-block__btn {
+    width: 25%;
+  }
+  .footer__list {
+    width: 50%;
+    font-size: 15px;
+    justify-content: center;
+  }
+
+  .footer__info {
+    width: 30%;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .footer__item {
+    margin-right: 10px;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .navbar__logo {
+    width: 20%;
+  }
+
+  .header__btn {
+    width: 40%;
+  }
+
+  .header__img {
+    height: 600px;
+  }
+
+  .portfolio__item:nth-child(2),
+  .portfolio__item:nth-child(3) {
+    display: none;
+  }
+
+  .portfolio__item {
+    width: 50%;
+  }
+  .portfolio__list {
+    justify-content: center;
+  }
+
+  .portfolio__icon {
+    display: none;
+  }
+
+  .portfolio__icon_second {
+    display: block;
+    margin: 0 auto;
+  }
+
+  footer {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__list {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .footer__item {
+    margin-bottom: 5px;
+  }
+
+  .footer__info {
+    margin-top: 0;
+  }
+
+  .navbar__list,
+  .navbar__input {
+    display: none;
+  }
+
+  .navbar__btn_burger {
+    display: block;
+  }
+}
